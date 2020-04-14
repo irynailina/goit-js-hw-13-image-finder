@@ -1,0 +1,60 @@
+@import './libs/normalize.css';
+@import './fonts.css';
+@import './vars.css';
+/* @import 'src/styles/main'; */
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+​img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+h1 {
+  font-family: var(--font-main);
+  font-size: var(--font-color-main);
+}
+
+li {
+  list-style: none;
+}
+
+.stats {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.stats-item {
+  margin-right: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
