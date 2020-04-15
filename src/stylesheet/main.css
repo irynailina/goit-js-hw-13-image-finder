@@ -34,6 +34,13 @@ button:focus {
   outline: none;
 }
 
+body {
+  /* background-image: url(../assets/images/background-3.jpg);
+  height: 100vh;
+  block-size: cover; */
+  background-color: lightblue;
+}
+
 h1 {
   font-family: var(--font-main);
   font-size: var(--font-color-main);
@@ -41,7 +48,28 @@ h1 {
 
 li {
   list-style: none;
+  width: 500px;
 }
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+#query {
+  width: 500px;
+  height: 50px;
+  border-radius: 30px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-left: 10px;
+  border: none;
+  margin-bottom: 30px;
+
+}
+
+
 
 .stats {
   display: flex;
@@ -56,5 +84,16 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.loadMore {
+  width: 200px;
+  height: 50px;
+  color: beige;
+  background-color: cornflowerblue;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
